@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MUTO STORE</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#0088ff">
     <style>
         body {
             background-color: #121212;
@@ -11,6 +15,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 15px;
+            user-select: none;
         }
         h1 {
             text-align: center;
@@ -74,6 +79,19 @@
             border: 1px solid #0088ff;
             padding: 2px 6px;
             border-radius: 4px;
+            margin-bottom: 8px;
+        }
+        .download-btn {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            padding: 6px 0;
+            background-color: transparent;
+            border: 1px solid #0088ff;
+            color: #0088ff;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -93,41 +111,25 @@
             <img src="kapaklar/gta_v.jpg" alt="GTA V">
             <div class="game-title">Grand Theft Auto V</div>
             <span class="game-code">BLUS31156</span>
-        </div>
-        <div class="game-card">
-            <img src="kapaklar/gran_turismo_6.jpg" alt="GT6">
-            <div class="game-title">Gran Turismo 6</div>
-            <span class="game-code">BCUS98114</span>
+            <a href="#" class="download-btn">İndir</a>
         </div>
         <div class="game-card">
             <img src="kapaklar/fifa_17.jpg" alt="FIFA 17">
             <div class="game-title">FIFA 17</div>
             <span class="game-code">BLES02235</span>
+            <a href="#" class="download-btn">İndir</a>
         </div>
         <div class="game-card">
             <img src="kapaklar/the_last_of_us.jpg" alt="TLOU">
             <div class="game-title">The Last of Us</div>
             <span class="game-code">BCUS98174</span>
+            <a href="#" class="download-btn">İndir</a>
         </div>
         <div class="game-card">
             <img src="kapaklar/god_of_war_iii.jpg" alt="GOW3">
             <div class="game-title">God of War III</div>
             <span class="game-code">BCUS98111</span>
-        </div>
-        <div class="game-card">
-            <img src="kapaklar/pes_2013.jpg" alt="PES 2013">
-            <div class="game-title">PES 2013</div>
-            <span class="game-code">BLES01709</span>
-        </div>
-        <div class="game-card">
-            <img src="kapaklar/gta_san_andreas.jpg" alt="GTA SA">
-            <div class="game-title">GTA: San Andreas</div>
-            <span class="game-code">NPUB31470</span>
-        </div>
-        <div class="game-card">
-            <img src="kapaklar/red_dead_redemption.jpg" alt="RDR">
-            <div class="game-title">Red Dead Redemption</div>
-            <span class="game-code">BLES00680</span>
+            <a href="#" class="download-btn">İndir</a>
         </div>
     </div>
 
